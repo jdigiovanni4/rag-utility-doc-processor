@@ -1,0 +1,24 @@
+# --- PDF & Image Processing ---
+# We install ocrmypdf WITHOUT the [cv] extra to prevent conflicts.
+ocrmypdf
+
+# We now take DIRECT control and install the headless version of OpenCV.
+opencv-python-headless
+
+agentic-doc
+unstructured[all-docs]
+pdf2image
+
+# --- LLM & RAG Frameworks ---
+openai
+langchain
+langchain-community
+langchain-openai
+
+# --- Vector Database ---
+chromadb
+
+# --- Frontend & Data Display ---
+streamlit
+pandas
+pysqlite3-binary

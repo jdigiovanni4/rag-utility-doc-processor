@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+source_pdfs/
+corrected_pdfs/
+generic_json_outputs/
+final_json_outputs/
+manual_review_needed/
+vector_db/
+*.pdf
+*.json
+!package.json
+!package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Test data and experimental folders
+PK_Test/
+PK_Test2/
+Automated-Utility-Bill-and-Contract-Processing-using-Agentic-RAG/data/
+compatible_markdown_outputs/
+source_pdfs_test/
+rag_system/
+
+# Old numbered scripts (deprecated)
+1_run_rotation_fix.py
+2_pdf_json_agentic.py
+2_run_markdown_conversion.py
+3_convert_llm_json.py
+4_qc_and_flagging.py
+5_build_knowledge_base.py
+
+# Old duplicate/experimental files (deprecated)
+demo_app.py
+demo_pipeline.py
+pipeline.py
+master_prompt.txt
+create_compatible_markdown.py
+extract_json.py
+fletcher_langtest.py
+ingest_jsons.py
+preprocess_tables.py
+query_data_rag.py
+query_rag.py
+retry_failures.py
+ExampleMarkdownParsing.ipynb
+doc_1124_gt.json
+instructions.txt
+packages.txt
+
+# Documentation (if contains sensitive info)
+docs/*.docx
