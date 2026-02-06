@@ -173,10 +173,6 @@ Edit `config/settings.py` to customize:
 - Tesseract OCR
 - Poppler (for PDF processing)
 
-## License
-
-[Add your license here]
-
 ## Acknowledgments
 
 Developed as part of the Applied Data Science Master's program at University of Chicago, in collaboration with PowerKiosk.
