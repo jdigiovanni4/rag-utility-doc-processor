@@ -2,6 +2,8 @@
 
 An end-to-end system for extracting structured data from utility bills and contracts using Agentic RAG. Processes PDFs through OCR, structured extraction, quality control, and builds a searchable knowledge base.
 
+This is a truncated demonstration of the entire project. The pipeline and agent cannot be run at this time due to the private and sensitive financial energy data used.
+
 ## Features
 
 - **PDF Preprocessing**: Automatic rotation correction and deskewing
